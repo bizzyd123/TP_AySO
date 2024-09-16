@@ -1,0 +1,82 @@
+ls
+ls -l
+echo
+echo "hola"
+cd repogit/
+git clone https://github.com/bizzyd123/Repo_Chiquipa_Leon.git
+ls
+cd repo_Chiquipa_Leon
+cd Repo_Chiquipa_Leon
+ls
+history
+historial.txt
+history > historial.txt
+ls
+git status
+git add .
+git status
+git commit -m "primer comentario"
+vagrant status
+ls
+cd repogit
+ls -l
+cd Repo_Chiquipa_Leon
+echo "texto.txt"
+commit -m "nuevo texto"
+git commit -m "nuevo texto"
+echo "hola.tct"
+echo "hola.txt"
+git commit -m "hola"
+echo "hola" hola.txt
+git add hola.txt
+ls
+echo "hola" hola.txt
+ls
+echo "hola" > hola.txt
+ls
+git add hola.txt
+git commit -m "agrego archivo hola"
+ls
+cd repogit
+ls
+vagrant status
+git status
+ls -l
+ls l
+ls -ls
+cd repogit 
+ls
+cd TP_AySO
+ls
+git add .
+git config --global user.email "wendy_cone_@hotmail.com"
+git config --global user.name "bizzyd123"
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git status
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información de CPU"
+git status
+grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k7 > lista_ordenada
+git status
+git push
+grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k7 > lista_ordenada
+git add lista_ordenada
+git commit -m "ADD: Listado de usuarios ordenada"
+git push
+git commit -m "ADD: Listado de usuarios ordenada"
+man -k dump | grep network
+echo "tcpdump" > comando_dump_net
+echo "man -k dump | grep network" >> comando_dump_net
+git add comando_dump_net
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+cat << EOF >> README.md
+Alumno: Wendy
+División: 115
+Turno: mañana
+EOF
+
+git add README.md
+git commit -m "ADD: Información del alumno en README.md"
+history -a
